@@ -5,22 +5,18 @@
 
 ## Features
   - Node.js Express Web Server*
-  - Express: 
-  - Body-parser: 
-  - Cors: 
-  - Mongoose: an object data modeling (ODM) library for MongoDB and Node.js
+  - Express: Light weight Web Server from Node.js
+  - Body-parser: Middleware - Parses HTTP Request Body/Allow JSON parsing
+  - Cors: Middleware - Expose Resources/Routes to be called from React GUI
+  - Mongoose: Object Data Modeling (ODM) library for MongoDB and Node.js
   - MongoDB: a document database
-  - Nodemon: 
+  - Nodemon: Utility monitors for any changes in source, restarts server
 
 ### Installation dependencies
 ```
 $ npm init -y
 $ npm install express body-parser cors mongoose
 $ npm install -g nodemon
-
-$ npm i morgan
-$ npm install mongodb --save
-$ npm install express --save
 ```
 You should see **NPM** download a lot of files. Once it's done you'll find all the downloaded packages under the **node_modules** directory.
 
