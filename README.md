@@ -1,4 +1,4 @@
-# project mern-todo-proj/mern-todo-app
+# project mern-todo-proj/mern-todo-api
 
 ## Medium Article ##
 (https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-2/)
