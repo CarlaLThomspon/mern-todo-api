@@ -64,9 +64,9 @@ $ mongod --dbpath=/data
 You should see the **mongod** process start up and print some status information.
 ```
 
-###  Run Express Web Server in a separte terminal:
+###  Run Express Web Server in the integrated terminal:
 ```
-$ node server.js
+$ nodemon server
 ```
 
 ## Postman: Send HTTP Requsts to test Endpoints ##
