@@ -1,7 +1,10 @@
 # project mern-todo-proj/mern-todo-api
 
 ## Medium Article ##
+(https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-1/)
 (https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-2/)
+(https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-3/)
+(https://codingthesmartway.com/the-mern-stack-tutorial-building-a-react-crud-application-from-start-to-finish-part-4/)
 
 ## Features
   - Node.js Express Web Server*
