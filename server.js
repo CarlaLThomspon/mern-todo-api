@@ -11,9 +11,8 @@ let Todo = require('./todo.model');
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://127.0.0.1:27017/todos',{ useNewUrlParser: true});
+mongoose.connect('mongodb://127.0.0.1:32768/todos',{ useNewUrlParser: true, useUnifiedTopology: true});
 const connection = mongoose.connection;
-
 connection.once('open', function() {
     console.log("MongoDB database connection established successfully");
 })
@@ -50,9 +49,9 @@ todoRoutes.route('/update/:id').post(function(req,res) {
     Todo.findById(req.params.id, function(err, todo) {
         if (!todo)
             res.status(404).send('data is not found');
-        else 
+        else
             todo.todo_description = req.body.todo_description;
-            todo.todo_responsible = req.body.todo_resonsible;
+            todo.todo_responsible = req.body.todo_responsible;
             todo.todo_priority = req.body.todo_priority;
             todo.todo_completed = req.body.todo_completed;
 

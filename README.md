@@ -30,16 +30,18 @@ NETWORK  [thread1] waiting for connections on port 27017
 ### Connect to the running MongoDB Server and create todos collection
 ```
 bash
-$ mongo
+$ mongo 
+OR
+$ mongo --host 127.0.0.1:32768
 
 > use todos
 switched to db todos
 
-> db.todos.deleteMany({})
-{ "acknowledged" : true, "deletedCount" : 4 } - deletes all
-
 >db.todos.find()
 { "_id" : ObjectId("5dbfb6b147875d3b0716ca01"), "todo_description" : "My first todo", "todo_priority" : "Medium", "todo_completed" : true, "__v" : 0 } - show all
+
+> db.todos.deleteMany({})
+{ "acknowledged" : true, "deletedCount" : 4 } - deletes all
 ```
 
 
